@@ -6,7 +6,11 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        "30": "30px",
+      }
+    },
   },
   plugins: [],
 };
